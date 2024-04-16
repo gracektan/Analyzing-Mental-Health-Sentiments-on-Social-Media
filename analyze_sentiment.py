@@ -72,6 +72,9 @@ plt.ylabel('Frequency')
 plt.tight_layout()
 plt.show()
 
+# Print messages before writing to CSV file
+print("Finished sentiment analysis for all posts. Writing to CSV file...")
+
 # Specify the full path for CSV export
 csv_file_path = 'C:\\Analyzing-Mental-Health-Sentiments-on-Social-Media\\sentiment_analysis_results.csv'
 
